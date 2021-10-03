@@ -1,0 +1,174 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: Roboto;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+
+body {
+	background-color: #dcdcdc;
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.nemo {
+	background-color: #fff;
+	height: 700px;
+	padding: 100px 87px 0px 87px;
+	margin: 0px 0px 230px 0px;
+}
+
+.mark {
+	height: 23px;
+}
+
+.nemo .subtitle {
+	display: inline-block;
+	color: #4b4b4b;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 33px 0px;
+}
+
+.nemo .title {
+	color: #02133c;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+}
+
+.nemo .text {
+	color: #4b4b4b;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 54px 0px;
+}
+
+.item {
+	max-width: 324px;
+	text-align: center;
+	padding: 50px 44px;
+	background-color: #fff;
+	margin: 0px 0px 24px 0px;
+}
+.logo {
+	margin: 0px 0px 33px 0px;
+}
+.item .title {
+	color: #02133c;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	margin: 0px 0px 20px 0px;
+}
+.subtext {
+	color: #4b4b4b;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+
+.container2 {
+	font-family: Poppins;
+	background-color: #fff;
+	max-width: 1038px;
+	margin: 0 auto;
+}
+.title-shop {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: 600;
+	margin: 0px 0px 26px 0px;
+}
+.title-general {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.content {
+	padding: 20px 0;
+	margin: 0px 0px 50px 0px;
+}
+.content .title {
+	line-height: 26px;
+	font-weight: 600;
+	margin: 0px 0px 30px 0px;
+}
+
+.content .text,
+.list {
+	line-height: 26px;
+	font-weight: 300;
+	margin: 0px 0px 30px 0px;
+}
+
+.block {
+	background-color: #fff;
+	max-width: 425px;
+	margin: 0 auto;
+}
+.block .title {
+	font-size: 44px;
+	line-height: 58px;
+	font-weight: 500;
+	margin: 0px 0px 25px 0px;
+}
+.block .text {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 300;
+}
